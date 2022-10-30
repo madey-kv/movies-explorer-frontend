@@ -1,0 +1,25 @@
+.promo {
+    background-color: #F3C1F8;
+}
+
+.promo__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 626px;
+    margin: 50px 0 0 0;
+}
+
+.promo__image {
+    display: flex;
+    margin: 102px 0 0 auto;
+    padding-bottom: 60px;
+    background-image: url("../../images/lines.svg");
+    width: 722px;
+    background-repeat: no-repeat;
+    height: 244px;
+    background-size: contain;
+}
