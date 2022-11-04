@@ -4,7 +4,6 @@ import student from '../../images/student.png';
 function AboutMe() {
     return (
         <section className="about-me">
-            <div className="container">
                 <h2 className="section__title">Студент</h2>
                 <div className="section__line"></div>
                 <div className="about-me__student">
@@ -17,7 +16,6 @@ function AboutMe() {
                     </div>
                     <img src={student} alt="фото студента" className="about-me__photo"/>
                 </div>
-            </div>
         </section>
     )
 }

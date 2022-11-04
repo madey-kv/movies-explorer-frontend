@@ -1,21 +1,20 @@
 .card__item {
-    width: 364px;
-    height: 281px;
     background: #FDFDFD;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
     border-radius: 6px;
+    line-height: 1;
 }
 
 .card__photo {
-    width: 364px;
-    height: 203px;
+    width: 100%;
+    background-size: cover;
 }
 
 .cards__text {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 9px 16px 16px 16px;
+    padding: 16px;
     margin: 0;
 }
 
@@ -62,4 +61,10 @@
 
 .button_like_active {
     background: transparent url(../../images/Like-Button-active.svg);
+}
+
+@media (max-width: 1170px) {
+    .cards__text {
+        padding: 14px;
+    }
 }

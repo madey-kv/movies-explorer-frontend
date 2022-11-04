@@ -73,3 +73,33 @@
     line-height: 16px;
     color: #FF4062;
 }
+
+@media (max-width: 768px) {
+    .form__title_profile {
+        padding-top: 236px;
+        margin-bottom: 96px;
+    }
+
+    .button__profile {
+        margin-top: 210px;
+    }
+}
+
+@media (max-width: 440px) {
+    .form__title_profile {
+        padding-top: 70px;
+        margin-bottom: 80px;
+    }
+
+    .form_change-profile {
+        max-width: 260px;
+    }
+
+    .button__profile {
+        margin-top: 379px;
+    }
+
+    .form__link {
+        margin-bottom: 40px;
+    }
+}

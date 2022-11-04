@@ -1,5 +1,5 @@
 import './SavedMovies.css'
-import HeaderMovies from "../Header/HeaderMovies";
+import Header from "../Header/Header";
 import SearchForm from "../SearchForm/SearchForm";
 import NotFound from "../NotFound/NotFound";
 import Footer from "../Footer/Footer";
@@ -8,7 +8,7 @@ function SavedMovies() {
 
     return (
         <>
-            <HeaderMovies />
+            <Header loggedIn={true}/>
             <SearchForm />
             <NotFound />
             <Footer />

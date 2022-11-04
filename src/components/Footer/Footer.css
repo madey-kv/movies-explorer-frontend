@@ -5,8 +5,10 @@
     margin: 0 auto 0 auto;
     position: absolute;
     left: 0;
+    right: 0;
     bottom: 0;
-    width: 100%;
+    max-width: 1140px;
+    padding: 0 70px;
 }
 
 .footer_copyright {
@@ -41,4 +43,35 @@
 
 .footer__link {
     margin: 0 0 0 20px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer {
+        padding: 0 10px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer__info {
+        flex-direction: column-reverse;
+        margin: 0 auto 10px auto;
+    }
+
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .footer__link {
+        margin: 0;
+    }
 }

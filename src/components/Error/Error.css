@@ -32,3 +32,23 @@
     line-height: 17px;
     color: #000000;
 }
+
+@media (max-width: 440px) {
+    .error__text {
+        margin-top: 329px;
+        font-size: 80px;
+        line-height: 97px;
+    }
+
+    .error__description {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 10px;
+    }
+
+    .error__link {
+        font-size: 12px;
+        line-height: 15px;
+        margin-top: 284px;
+    }
+}

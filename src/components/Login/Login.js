@@ -6,7 +6,7 @@ function Login() {
 
     return (
         <section className="register">
-            <Link to="/"><img className="form__logo" alt="Логотип" src={logo}/></Link>
+            <Link to="/" className="form__logo"><img alt="Логотип" src={logo}/></Link>
 
             <form className="form form_registration" name="sign-up" action="#" method="get">
                 <fieldset className="form__fieldset">
@@ -27,7 +27,7 @@ function Login() {
 
                 <Link to="/movies" className="link form__button form__button_signup button">Войти</Link>
                 <p className="form__change">Ещё не зарегистрированы?&nbsp;
-                    <Link to="/signin" className="link form__change form__change_link">Регистрация</Link>
+                    <Link to="/signup" className="link form__change form__change_link">Регистрация</Link>
                 </p>
             </form>
         </section>

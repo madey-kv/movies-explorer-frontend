@@ -51,3 +51,46 @@
     background-color: #E8E8E8;
     margin: 9px 0 0 0;
 }
+
+@media (max-width: 800px) {
+    .portfolio {
+        padding-bottom: 262px;
+    }
+
+    .portfolio__project-name {
+        font-size: 28px;
+    }
+
+    .project__arrow {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 500px) {
+    .portfolio__title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .portfolio__projects {
+        margin-top: 20px;
+    }
+
+    .portfolio__project-name {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .project__arrow {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .portfolio__underline {
+        margin-top: 19px;
+    }
+
+    .portfolio {
+        padding-bottom: 242px;
+    }
+}

@@ -8,6 +8,11 @@
     margin: 0 0 23px 0;
 }
 
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .section__line {
     height: 1px;
     width: 100%;
@@ -23,4 +28,22 @@
 
 .link:hover {
     opacity: 0.5;
+}
+
+@media (max-width: 1170px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 0 18px;
+    }
+
+    .section__title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
 }

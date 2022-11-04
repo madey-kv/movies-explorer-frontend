@@ -112,3 +112,49 @@
 .search__checkbox:checked+.search__label:after {
     right: 1px;
 }
+
+@media (max-width: 1170px) {
+    .search__form {
+        padding: 0 30px;
+    }
+
+    .search__checkbox-container {
+        margin: 0 0 61px 0;
+    }
+
+    .search__container {
+        margin-top: 86px;
+    }
+}
+
+@media (max-width: 640px) {
+    .search__form {
+        padding: 0 14px;
+    }
+
+    .search__checkbox-container {
+        margin: 0 0 50px 0;
+    }
+
+    .search__container {
+        margin-top: 92px;
+        margin-bottom: 42px;
+        align-items: center;
+    }
+
+    .search__input {
+        font-size: 18px;
+        line-height: 22px;
+        height: 22px;
+        text-align: left;
+    }
+
+    .search__icon {
+        display: none;
+    }
+
+    .search__checkbox-text {
+        font-size: 11px;
+    }
+
+}

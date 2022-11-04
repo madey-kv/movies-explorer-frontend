@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Main from '../Main/Main';
 import Movies from '../Movies/Movies';
 import './App.css'
@@ -10,18 +10,11 @@ import Login from "../Login/Login";
 import Error from "../Error/Error";
 import Profile from "../Profile/Profile";
 import {Route, Switch} from "react-router-dom";
+import Navigation from "../Navigation/Navigation";
 
 function App() {
   return (
       <div className="page">
-        {/*<Main />*/}
-        {/*  <Movies />*/}
-        {/*  <SavedMovies />*/}
-        {/*  <Register />*/}
-        {/*  <Login />*/}
-        {/*  <Error />*/}
-        {/*  <Profile />*/}
-
           <Switch>
               <Route exact path="/">
                  <Main />

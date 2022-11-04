@@ -1,13 +1,13 @@
 import './Profile.css'
 import React from "react";
 import {Link} from "react-router-dom";
-import HeaderMovies from "../Header/HeaderMovies";
+import Header from "../Header/Header";
 
 function Profile() {
 
     return (
-        <section className="container">
-           <HeaderMovies />
+        <>
+           <Header loggedIn={true}/>
             <form className="form form_change-profile" name="change-user" action="#" method="get">
                 <fieldset className="form__fieldset form__fieldset_profile">
                     <legend className="form__title form__title_profile">Привет, username!</legend>
@@ -28,7 +28,7 @@ function Profile() {
                 <button className="button button__profile">Редактировать</button>
                 <Link to="/signin" className="link form__link">Выйти из аккаунта</Link>
             </form>
-        </section>
+        </>
     )
 }
 
