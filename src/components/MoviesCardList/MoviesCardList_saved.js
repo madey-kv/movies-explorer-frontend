@@ -1,5 +1,4 @@
 import './MoviesCardList.css'
-import MoviesCard from '../MoviesCard/MoviesCard';
 import MoviesCard_saved from "../MoviesCard/MoviesCard_saved";
 
 function MoviesCardList() {

@@ -1,4 +1,3 @@
-import Header from '../Header/Header';
 import './Promo.css'
 
 function Promo() {

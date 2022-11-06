@@ -10,11 +10,8 @@ import Login from "../Login/Login";
 import Error from "../Error/Error";
 import Profile from "../Profile/Profile";
 import {Route, Switch} from "react-router-dom";
-import Navigation from "../Navigation/Navigation";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import SearchForm from "../SearchForm/SearchForm";
-import MoviesCardList from "../MoviesCardList/MoviesCardList";
 
 function App() {
   return (
