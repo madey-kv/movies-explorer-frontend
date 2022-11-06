@@ -1,17 +1,14 @@
-import './SavedMovies.css'
-import Header from "../Header/Header";
+import './SavedMovies.css';
 import SearchForm from "../SearchForm/SearchForm";
-import NotFound from "../NotFound/NotFound";
-import Footer from "../Footer/Footer";
+import MoviesCardList from "../MoviesCardList/MoviesCardList";
+import MoviesCardList_saved from "../MoviesCardList/MoviesCardList_saved";
 
 function SavedMovies() {
 
     return (
-        <>
-            <Header loggedIn={true}/>
+        <   >
             <SearchForm />
-            <NotFound />
-            <Footer />
+            <MoviesCardList_saved />
         </>
     )
 }

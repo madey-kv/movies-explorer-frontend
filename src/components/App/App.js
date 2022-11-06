@@ -11,13 +11,19 @@ import Error from "../Error/Error";
 import Profile from "../Profile/Profile";
 import {Route, Switch} from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import SearchForm from "../SearchForm/SearchForm";
+import MoviesCardList from "../MoviesCardList/MoviesCardList";
 
 function App() {
   return (
       <div className="page">
           <Switch>
               <Route exact path="/">
-                 <Main />
+                  <Header loggedIn={false}/>
+                  <Main />
+                  <Footer />
               </Route>
               <Route path="/signin">
                   <Login />
@@ -26,10 +32,14 @@ function App() {
                   <Register />
               </Route>
               <Route path="/movies">
+                  <Header loggedIn={true}/>
                   <Movies />
+                  <Footer />
               </Route>
               <Route path="/saved-movies">
+                  <Header loggedIn={true}/>
                   <SavedMovies />
+                  <Footer />
               </Route>
               <Route path="/profile">
                   <Profile />

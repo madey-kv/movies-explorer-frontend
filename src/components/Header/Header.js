@@ -16,7 +16,7 @@ function Header(props) {
     const location = useLocation();
 
     return (
-        <header className="header">
+        <header className={props.loggedIn ? "header" : "header header_pink"}>
             <Link to="/"><img className="header__logo" alt="Логотип" src={logo}/></Link>
             <div className={props.loggedIn ? "hidden" : "header__menu"}>
                 <Link className="header__link link header__link_signup" to='/signup'>Регистрация</Link>

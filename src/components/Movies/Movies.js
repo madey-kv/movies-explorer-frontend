@@ -7,10 +7,8 @@ import Footer from "../Footer/Footer";
 function Movies() {
     return (
         <>
-            <Header loggedIn={true}/>
             <SearchForm />
             <MoviesCardList />
-            <Footer />
         </>
     )
 }

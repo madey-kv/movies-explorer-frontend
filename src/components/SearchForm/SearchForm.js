@@ -6,12 +6,12 @@ function SearchForm() {
 
     return (
             <div className="search__form">
-                <fieldset className="search__container">
+                <form className="search__container">
                     <img src={lightIcon} alt="" className="search__icon"/>
                     <input type="email" className="search__input" id="search" placeholder="Фильм"
                            required />
                     <button type="submit" className="button button_search"><img src={darkIcon} alt="" className="search__button"/></button>
-                </fieldset>
+                </form>
                 <div className="search__checkbox-container">
                     <div className="search__checkbox-switch">
                         <input className="search__checkbox" type="checkbox" id="mute"/>

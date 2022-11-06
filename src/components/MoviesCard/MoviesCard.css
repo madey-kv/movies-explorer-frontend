@@ -59,6 +59,16 @@
     margin: 5px 0 0 0;
 }
 
+.button_delete {
+    background: transparent url(../../images/Delete-button.svg);
+    width: 7px;
+    height: 7px;
+    border: none;
+    margin: 0;
+    background-size: contain;
+    padding: 0;
+}
+
 .button_like_active {
     background: transparent url(../../images/Like-Button-active.svg);
 }
