@@ -1,0 +1,142 @@
+.about-me {
+    margin: 100px auto 110px auto;
+}
+.about-me__student {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 49px;
+}
+
+.about-me__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__name {
+    margin: 66px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    max-width: 600px;
+}
+
+.about-me__profession {
+    margin: 18px 0 0 0;
+    max-width: 600px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.about-me__biography {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    max-width: 600px;
+    margin: 26px 0 0 0;
+}
+
+.about-me__photo {
+    margin: 66px 0 0 0;
+    width: 270px;
+    height: 327px;
+    border-radius: 10px;
+}
+
+.about-me__github {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-decoration: none;
+    margin-top: auto;
+}
+
+
+@media (max-width: 800px) {
+    .about-me {
+        margin: 90px 0;
+    }
+
+    .about-me__name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .about-me__profession {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 16px;
+    }
+
+    .about-me__biography {
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 26px;
+    }
+
+    .about-me__photo {
+        width: 255px;
+        height: 307px;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-me {
+        margin: 90px 0;
+        padding: 0 14px;
+    }
+}
+
+@media (max-width: 640px) {
+    .about-me {
+        margin: 70px 0;
+    }
+
+    .about-me__student {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .about-me__photo {
+        width: 292px;
+        height: 352px;
+        margin-top: 60px;
+    }
+
+    .about-me__name {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .about-me__profession {
+        font-size: 11px;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+
+    .about-me__biography {
+        font-size: 11px;
+        line-height: 16px;
+        margin-top: 20px;
+    }
+
+    .about-me__github {
+        margin-top: 40px;
+    }
+}
+
+

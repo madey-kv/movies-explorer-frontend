@@ -1,0 +1,56 @@
+.main {
+    flex: 1
+}
+
+.section__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: -0.04em;
+    color: #000000;
+    margin: 0 0 23px 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section__line {
+    height: 1px;
+    width: 100%;
+    background-color: #000000;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    opacity: 1;
+    transition: opacity .4s ease-in;
+}
+
+.link:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 1170px) {
+    .container {
+        max-width: calc(100% - 100px);
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        max-width: calc(100% - 36px);
+        padding: 0 18px;
+    }
+
+    .section__title {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
+}

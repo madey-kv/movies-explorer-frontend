@@ -1,0 +1,10 @@
+.not-found {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #A0A0A0;
+    min-height: 300px;
+    margin: 0;
+}
