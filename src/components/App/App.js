@@ -9,11 +9,13 @@ import Preloader from '../Preloader/Preloader';
 import Login from "../Login/Login";
 import Error from "../Error/Error";
 import Profile from "../Profile/Profile";
-import {Route, Switch} from "react-router-dom";
+import {Route, Switch, useLocation} from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 
 function App() {
+    const location = useLocation();
+    console.log(location.pathname === "/saved-movies")
   return (
       <div className="page">
           <Switch>
@@ -26,7 +28,7 @@ function App() {
                   <Login />
               </Route>
               <Route path="/signup">
-                  <Register />
+                  <Register/>
               </Route>
               <Route path="/movies">
                   <Header loggedIn={true}/>
@@ -39,10 +41,11 @@ function App() {
                   <Footer />
               </Route>
               <Route path="/profile">
-                  <Profile />
+                  <Header loggedIn={true}/>
+                  <Profile/>
               </Route>
               <Route path="*">
-                 <Error />
+                  <Error />
               </Route>
           </Switch>
       </div>

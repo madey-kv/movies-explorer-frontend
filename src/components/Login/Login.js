@@ -25,7 +25,7 @@ function Login() {
                     </ul>
                 </fieldset>
 
-                <Link to="/movies" className="link form__button form__button_signup button">Войти</Link>
+                <Link to="/movies" className="link form__button form__button_signup">Войти</Link>
                 <p className="form__change">Ещё не зарегистрированы?&nbsp;
                     <Link to="/signup" className="link form__change form__change_link">Регистрация</Link>
                 </p>

@@ -1,13 +1,11 @@
 import './Profile.css'
 import React from "react";
 import {Link} from "react-router-dom";
-import Header from "../Header/Header";
 
 function Profile() {
 
     return (
         <>
-           <Header loggedIn={true}/>
             <form className="form form_change-profile" name="change-user" action="#" method="get">
                 <fieldset className="form__fieldset form__fieldset_profile">
                     <legend className="form__title form__title_profile">Привет, username!</legend>

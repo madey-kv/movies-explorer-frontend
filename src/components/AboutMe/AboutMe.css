@@ -1,6 +1,5 @@
 .about-me {
     margin: 100px auto 110px auto;
-    max-width: 1140px;
 }
 .about-me__student {
     display: flex;
@@ -64,11 +63,6 @@
     margin-top: auto;
 }
 
-@media (max-width: 1170px) {
-    .about-me {
-        padding: 0 50px;
-    }
-}
 
 @media (max-width: 800px) {
     .about-me {

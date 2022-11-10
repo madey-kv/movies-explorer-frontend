@@ -1,5 +1,7 @@
 .promo {
+
     background-color: #F3C1F8;
+    width: 100vw;
 }
 
 .promo__cover {
@@ -29,6 +31,12 @@
     background-repeat: no-repeat;
     height: 244px;
     background-size: contain;
+}
+
+@media (min-width: 1140px) {
+    .promo__cover {
+        padding: 0 calc((100% - 1140px) / 2);
+    }
 }
 
 @media (max-width: 1170px) {

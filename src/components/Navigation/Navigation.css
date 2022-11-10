@@ -95,6 +95,12 @@
     margin: auto auto 90px auto;
 }
 
+@media (min-width: 769px) {
+    .navigation__navbar_active {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
     .navigation__burger {
         display: block;

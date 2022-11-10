@@ -1,14 +1,12 @@
 import './SavedMovies.css';
 import SearchForm from "../SearchForm/SearchForm";
-import MoviesCardList_saved from "../MoviesCardList/MoviesCardList_saved";
 
 function SavedMovies() {
 
     return (
-        <   >
+        <section className="saved-movies">
             <SearchForm />
-            <MoviesCardList_saved />
-        </>
+        </section>
     )
 }
 

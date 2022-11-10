@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    width: 100%;
     max-width: 1140px;
     height: 74px;
     align-items: center;
@@ -93,17 +94,14 @@
     }
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 1200px) {
     .header {
+        width: calc(100% - 60px);
         padding: 0 30px;
     }
 }
 
 @media (max-width: 768px) {
-    .header {
-        padding: 0 30px;
-    }
-
     .header__movie-links {
         display: none;
     }
@@ -115,6 +113,7 @@
 
 @media (max-width: 640px) {
     .header {
+        width: calc(100% - 28px);
         padding: 0 14px;
     }
 

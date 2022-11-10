@@ -30,7 +30,7 @@ function Register() {
                     </ul>
                 </fieldset>
 
-                <Link to="/movies" className="link form__button form__button_signup button">Зарегистрироваться</Link>
+                <Link to="/movies" className="link form__button form__button_signup ">Зарегистрироваться</Link>
                 <p className="form__change">Уже зарегистрированы?&nbsp;
                     <Link to="/signin" className="link form__change form__change_link">Войти</Link>
                 </p>

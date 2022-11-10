@@ -28,7 +28,7 @@
     height: 36px;
     width: 320px;
     background-color: transparent;
-    margin: 50px 0 252px 0;
+    margin: 80px 0;
     padding: 0;
 }
 
@@ -37,10 +37,6 @@
         grid-template: auto / repeat(2, 339px);
         column-gap: 30px;
         row-gap: 30px;
-    }
-
-    .cards__button {
-        margin: 80px 0 252px 0;
     }
 }
 
@@ -64,6 +60,5 @@
 
     .cards__button {
         width: 240px;
-        margin: 76px 0 323px 0;
     }
 }
